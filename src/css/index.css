@@ -1,0 +1,148 @@
+.header {
+    margin: 20px;
+    padding: 15px 15px 0 15px;
+}
+
+.header--icon {
+    color: var(--almost-white);
+    font-size: 3.5rem;
+}
+.header--icon__background i {
+    font-size: 15rem;
+}
+.main--first {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.main--title {
+    margin: 20px 0;
+}
+h1.titles--title {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    width: 70%;
+    max-width: 300px;
+}
+h2.titles--title {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+.main--button {
+    padding: 10px;
+    border: 0;
+    font-size: 1.8rem;
+    margin: 10px 0;
+    border-radius: 50px;
+    width: 80%;
+    min-width: 280px;
+    max-width: 300px;
+    cursor: pointer;
+}
+.main--button__white {
+    border: 1px solid #3c4043;
+    background-color: var(--just-white);
+}
+/* .google--logo {
+    width: 40px;
+    height: 40px;
+    background-image: url('./assets/google.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+.main--button__blue {
+    border: 1px solid var(--secondary-color);
+    background-color: var(--brand-color);
+    color: var(--just-white);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.main--division {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+.main--division div {
+    width: 45%;
+    border-top: 1px solid #6d7379;
+}
+.main--text {
+    font-size: 1rem;
+    margin: 5px 0 20px;
+}
+.main--text a {
+    color: #035ce3;
+}
+h3 {
+    margin: 0 20px;
+    font-size: 1.6rem;
+}
+.main--button__black {
+    margin: 20px;
+    color: var(--brand-color);
+    background-color: black;
+    border: 1px solid var(--secondary-color);
+}
+.main--background {
+    width: 100%;
+    height: 50vh;
+    background-image: url('./assets/blue-background.png');
+    background-size: cover;
+    /* background-color: var(--brand-color); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.footer--list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer--list li {
+    margin: 5px 10px;
+}
+.footer--list li a {
+    color: #6d7379;
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+        height: 80%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .main--background {
+        width: 40%;
+        background-image: url('./assets/blue-background-vertical.png');
+        background-size: cover;
+        height: auto;
+    }
+    .hero--content {
+        width: 60%;
+    }
+    .main--division {
+        max-width: 350px;
+        margin-left: 0;
+    }
+    .main--division div {
+        width: 45%;
+    }
+    h1.titles--title {
+        font-size: 5rem;
+    }
+}

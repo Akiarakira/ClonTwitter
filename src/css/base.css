@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #1d9bf0;
+    --secondary-color: #105786;
+    --almost-white: #e7e9ea;
+    --just-white: #fff;
+}
+a {
+    text-decoration: none;
+    color: var(--almost-white);
+}
+
+ul {
+    list-style: none;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+body {
+    background-color: black;
+    color: var(--almost-white);
+    overflow-x: hidden;
+}
